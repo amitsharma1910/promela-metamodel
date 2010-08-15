@@ -1,0 +1,73 @@
+package model.promela.literal;
+
+public class Literal {
+
+	public static final char OBRACKET = '[';
+	public static final char CBRACKET = ']';
+	public static final char OBRACE = '{';
+	public static final char CBRACE = '}';
+	public static final char COMMA = ',';
+	public static final char OPRNTHESES = '(';
+	public static final char CPRNTHESES = ')';
+	public static final char SMCOLON = ';';
+	public static final char DOT = '.';
+	public static final char EQUAL = '=';
+	public static final String TRUE = "true";
+	public static final String FALSE = "false";
+	public static final String SKIP = "skip";
+	public static final String BIT = "bit";
+	public static final String BOOL = "bool";
+	public static final String SHORT = "short";
+	public static final String INT = "int";
+	public static final String MTYPE = "mtype";
+	public static final String CHAN = "chan";
+	public static final String BYTE = "byte";
+	public static final String PROCTYPE = "proctype";
+	public static final String LEN = "len";
+	public static final String EVAL = "eval";
+	public static final String MINUS = "-";
+	public static final String PRIORITY = "priority";
+	public static final String TIMEOUT = "timeout";
+	public static final String NP = "np";
+	public static final String ENABLED = "enabled";
+	public static final String PC_VALUE = "pc_value";
+	public static final String RUN = "run";
+	public static final String IF = "if";
+	public static final String FI = "fi";
+	public static final String DO = "do";
+	public static final String OD = "od";
+	public static final String UNLESS = "unless";
+	public static final String XR = "xr";
+	public static final String XS = "xs";
+	public static final String ATOMIC = "atomic";
+	public static final String D_STEP = "d_step";
+	public static final String BREAK = "break";
+	public static final String ELSE = "else";
+	public static final String GOTO = "goto";
+	public static final String PRINT = "print";
+	public static final String ASSERT = "assert";
+	public static final String PROVIDED = "provided";
+	public static final String C_CODE = "c_code";
+	public static final String C_EXPR = "c_expr";
+	public static final String C_DECL = "c_decl";
+	public static final String C_TRACK = "c_track";
+	public static final String C_STATE = "c_state";
+	public static final String FULL = "full";
+	public static final String EMPTY = "empty";
+	public static final String NFULL = "null";
+	public static final String NEMPTY = "nempty";
+	public static final String INIT = "init";
+	public static final String NEVER = "never";
+	public static final String TRACE = "trace";
+	public static final String TYPEDEF = "typedef";
+	public static final String OF = "of";
+	//
+	public static final int MAXINT = 2147483647;
+	public static final int MININT = -2147483648;
+	public static final int MAXSHORT = 32767;
+	public static final int MINSHORT = -32768;
+	public static final int MAXBYTE = 255;
+	public static final int MINBYTE = 0;
+	//
+	public static final String END = "end";
+}
