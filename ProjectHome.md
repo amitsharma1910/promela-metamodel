@@ -1,0 +1,1 @@
+The project includes a metamodel for promela language. This metamodel was used to generate Promela source code from BPEL programs in my bachelor thesis.
